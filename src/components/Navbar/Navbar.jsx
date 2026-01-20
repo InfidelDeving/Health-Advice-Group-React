@@ -1,13 +1,20 @@
 import "./Navbar.css"
+import Button from "../Button/Button"
 
 export default function Navbar(){
 
     return(
         <>
-            <nav className="navbar">
+            <header className="navbar">
                 <img src="../src/assets/Logo.svg" alt="Logo" />
                 {/* Buttons */}
-            </nav>
+                
+                <nav>
+                    <Button text="test" />
+                    <Button text="test" />
+                    <Button text="test" path="/home" />
+                </nav>
+            </header>
         </>
     )
-}
+}   

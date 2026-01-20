@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
 
 :root {
   line-height: 1.5;
   font-weight: 400;
+  font-family: "Inclusive Sans", sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --brown: #9D5C11;
+  --orange: #F19F4A;
+  --clay: #F2BD80;
+  --white-brown: #FEE0B7;
+  --white: #FFF6E8;
+  --black: rgb(17, 7, 1);
+
 }
 
