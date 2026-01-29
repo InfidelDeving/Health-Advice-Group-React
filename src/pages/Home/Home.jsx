@@ -6,13 +6,14 @@ export default function Home() {
 
     const [screen, setScreen] = useState("search");
 
+
     return (
         <>
             <div>
 
-                <main>
-                    {screen == "search" ?? <SearchScreen/> }
-                    
+                <main className='home-cont'>
+                    {screen == "search" ? <SearchScreen/> : null}
+                                        
 
                 </main>
 
@@ -27,7 +28,8 @@ function SearchScreen() {
     return (
         <section>
             <div className='location-search'>
-                SEARCH SCREEN
+                <p className='search-title'>Find your forecast</p>
+                <input type="text" className='search-field' placeholder='Search'/>
             </div>
             <div className=''>
 

@@ -8,7 +8,7 @@ import Home from "./pages/Home/Home";
 export default function Routing() {
     return (
         <Routes>
-            <Route index element={<Home/>} />
+            <Route path="/" element={<Home/>} />
         </Routes>
     )
 }

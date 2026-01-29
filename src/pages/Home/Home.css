@@ -1,0 +1,26 @@
+.home-cont{
+    display: flex;
+    margin: 32px;
+    align-items: center;
+}
+
+.location-search{
+    border: none;
+    background-color: var(--clay);
+    padding: 16px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.search-field{
+    background-color: var(--white-brown);
+    border-radius: 32px;
+    border:none
+
+}
+
+.search-title{
+    font-size: 16pt;
+}

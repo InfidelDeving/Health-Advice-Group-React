@@ -10,9 +10,9 @@ export default function Navbar(){
                 {/* Buttons */}
                 
                 <nav>
-                    <Button text="test" />
-                    <Button text="test" />
-                    <Button text="test" path="/home" />
+                    <Button text="test" path="/"/>
+                    <Button text="test" path="/"/>
+                    <Button text="test" path="/" />
                 </nav>
             </header>
         </>

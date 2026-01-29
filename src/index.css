@@ -18,5 +18,8 @@
   --white: #FFF6E8;
   --black: rgb(17, 7, 1);
 
+
+  background-color: var(--white-brown);
+
 }
 
